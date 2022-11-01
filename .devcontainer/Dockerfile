@@ -5,4 +5,4 @@ ARG VARIANT="jammy"
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 
 # [Optional] Uncomment this section to install additional OS packages.
-RUN apt-get -y update  && sudo apt install -y build-essential  && sudo apt install -y gcc-multilib 
+RUN sudo apt-get -y update  && sudo apt install -y build-essential gcc-multilib gdb
