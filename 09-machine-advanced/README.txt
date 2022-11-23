@@ -1,6 +1,6 @@
 Extensions:
 	.64s: x86-64 assembly code
-	.64s: x86-64 disassembly
+	.64d: x86-64 disassembly
 	.64ns: x86-64 assembly code with stack protection disabled
 	.64nd: x86-64 disassembly with stack protection disabled
 
